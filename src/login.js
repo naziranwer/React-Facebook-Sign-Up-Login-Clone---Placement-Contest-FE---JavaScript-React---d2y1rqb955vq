@@ -20,6 +20,7 @@ const Register = () => {
       } else window.alert('User not registered');
     } else window.alert('User not registered');
   };
+
   return (
     <div className="text-center">
       <Card className="sign-in-card">
@@ -37,7 +38,7 @@ const Register = () => {
               </Button>
             </Form.Group>
             <hr />
-            <Button variant="success" className="btn btn-lg bg-fb-green" href="/#/register">
+            <Button variant="success" className="btn btn-lg bg-fb-green" href="/register">
               Create Account
             </Button>
           </Form>
