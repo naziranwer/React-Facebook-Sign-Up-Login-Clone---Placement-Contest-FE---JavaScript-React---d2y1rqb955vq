@@ -34,7 +34,7 @@ const Register = () => {
               </Button>
             </Form.Group>
             <hr />
-            <Button variant="success" className="btn btn-lg bg-fb-green" href="/">
+            <Button variant="success" className="btn btn-lg bg-fb-green" href="/#/login">
               Already have an Account
             </Button>
           </Form>
